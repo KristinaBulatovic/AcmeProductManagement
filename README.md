@@ -1,4 +1,5 @@
 # https://github.com/coreybutler/nvm-windows/releases
+Node.js vesion 8.12.0. LTS
 
 # APM
 
