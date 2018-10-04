@@ -27,6 +27,7 @@ export class ProductDetailComponent implements OnInit {
   }
 
   getProduct(id: number) {
+    let aaaa : string = 'Product Detail';
     this.productService.getProduct(id).subscribe(
       product => this.product = product,
       error => this.errorMessage = <any>error);
